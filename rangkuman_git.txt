@@ -1,0 +1,44 @@
+Command :
+git init
+git config user.name "namamu"
+git config user.email "emailmu"
+git config user.name "namamu"
+git config user.email "emailmu"
+cat .git/config                 : konfirmasi ketika email dan/atau nama dirubah
+git status
+git add "nama_file"             : (nambah file ke antrian commit satu-satu)   
+git add .                       : (nambah file semua ke antrian commit)
+git commit -m "pesannya :D"
+git checkout <5_kode_hash_pertama> -- <nama_file>     : mengen
+
+case:
+jika cman ngetik git commit, maka masuk vim, cara exit :
+:q!
+
+--                              : dibuat untuk hal spesifikgit checkout (5_nomor_hash_awal) -- (nama_file)     : mengembalikan file yang dihapus
+git commit -a -m "pesan_mu"
+git commit -am "pesan_mu"
+
+git branch <nama_branch>        : membuat branch baru
+git branch                      : mengecek branch
+git log --all --decorate --oneline --graph  : menampilkan graph history
+
+case (membuat alias/shortcut):
+misal meringkas git log --all --decorate --oneline --graph,
+alias graph="git log --all --decorate --oneline --graph"
+git checkout <nama_branch>          : pindah branch
+git merge <branch_sasaran>          : merge suatu branch di branch saat ini
+git branch --merge                  : mengecek nama branch yang sudah di merge
+git branch -d <branch_yg_akan_dihapus>   : menghapus branch setelah merge
+git branch -D <branch_yg_akan_dihapus>   : menghapus branch tanpa mempedulikan merge
+
+case:
+merge three-way kemudian muncul vim, ketik ini supaya exit dengan menyimpan nilai default :
+:qw!
+
+git merge staff                     :cek strategi merge
+
+
+# GIT REMOTE
+git remote                  : mengecek nama remote (default origin)
+git remote -v               : mengecek alamat dari git
