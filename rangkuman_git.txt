@@ -46,3 +46,5 @@ git merge staff                     :cek strategi merge
 git remote                  : mengecek nama remote (default origin)
 git remote -v               : mengecek alamat dari git
 git push                    : memasukkan data dari local ke internet
+on
+for  test
