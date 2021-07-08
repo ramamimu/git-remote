@@ -1,9 +1,12 @@
 Command :
 git init
+git config --global user.name "namamu"
+git config --global user.email "emailmu"
+git config --lokal user.name "namamu"
+git config --lokal user.email "emailmu"
 git config user.name "namamu"
 git config user.email "emailmu"
-git config user.name "namamu"
-git config user.email "emailmu"
+git config --list               : cek perubahan/update list config
 cat .git/config                 : konfirmasi ketika email dan/atau nama dirubah
 git status
 git add "nama_file"             : (nambah file ke antrian commit satu-satu)   
@@ -42,3 +45,4 @@ git merge staff                     :cek strategi merge
 # GIT REMOTE
 git remote                  : mengecek nama remote (default origin)
 git remote -v               : mengecek alamat dari git
+git push                    : memasukkan data dari local ke internet
