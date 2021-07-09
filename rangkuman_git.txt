@@ -13,6 +13,7 @@ git add "nama_file"             : (nambah file ke antrian commit satu-satu)
 git add .                       : (nambah file semua ke antrian commit)
 git commit -m "pesannya :D"
 git checkout <5_kode_hash_pertama> -- <nama_file>     : mengen
+git update                      : mengupdate git ke versi terbaru
 
 case:
 jika cman ngetik git commit, maka masuk vim, cara exit :
