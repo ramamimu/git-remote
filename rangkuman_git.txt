@@ -47,3 +47,17 @@ git merge staff                     :cek strategi merge
 git remote                  : mengecek nama remote (default origin)
 git remote -v               : mengecek alamat dari git
 git push                    : memasukkan data dari local ke internet
+
+# GIT REMOTE FROM ZERO
+buat repo baru di github yang bener-bener kosongan, lalu tambahkan
+git remote add <nama_remote_yang_diinginkan> <alamat_repo.git>
+git branch -M main              : kayaknya cman merubah nama branch ini
+git push -u main origin         : mengepush ke main dari origin
+note:: -u adalah upstream yang artinya push ke remote origin dan branch main supaya nanti cuman ketik 'git push' aja buat ngepush 
+
+case:
+ketika dua orang remote di file yang sama
+1. git fetch                : mengecek repo di github udah sampai mana
+                            : ketika terjadi konflik saat push karena double upload dari user lain
+                            : buat membuat cabang baru yang nantinya di merge buat resolve merge conflict
+2. git pull                 : mengambil dan merge file
