@@ -87,7 +87,9 @@ ketika dua orang remote di file yang sama
 ...(MULTIPLE REMOTE)
 git fetch <nama_remote>     : buat sinkron commit file lokal dari file github
 git fetch pb		    : jika punya banyak remote dan mau update semuanya sekaligus
-
+//fork
+git remote set-url origin <link_github_fork>    (control from fork)
+git push <nama_remote> <branch_remote>:<nama_calon_branch_baru_di_fork_ws>
 
 # GITHUB PAGES
 (github bisa digunakan webhosting ketika cuman HTML, CSS, dan javascript)
@@ -123,3 +125,5 @@ git branch -M main
 git push -u origin main
 
 git rebase <nama_branch>
+
+coba deh
