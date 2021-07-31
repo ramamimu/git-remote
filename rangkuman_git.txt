@@ -33,8 +33,12 @@ jika cman ngetik git commit, maka masuk vim, cara exit :
 git checkout (5_nomor_hash_awal) -- (nama_file)    : mengembalikan file yang dihapus
 git commit -a -m "pesan_mu"
 git commit -am "pesan_mu"
+git commit --amend		: menambahkan file yang tertinggal
+git commit --amend --no-edit 
+git push --force
 
 git branch <nama_branch>        : membuat branch baru
+git branch -m <old> <new>	: merename nama branch
 --
 git checkout -b <nama_branch>   : membuat dan berpindah ke branch yang diinginkan 
 git branch                      : mengecek branch
