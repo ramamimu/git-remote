@@ -127,5 +127,7 @@ sumber referensi suggest file ignore : gitignore.io
 git remote add origin https://github.com/ramamimu/Data_structure.wiki.git
 git branch -M main
 git push -u origin main
-
 git rebase <nama_branch>
+
+git rm --cached learn		:remove file in next commit
+git rm -r --cached learn	:remove folder in next commit
