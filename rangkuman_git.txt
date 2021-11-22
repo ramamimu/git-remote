@@ -131,3 +131,5 @@ git rebase <nama_branch>
 
 git rm --cached learn		:remove file in next commit
 git rm -r --cached learn	:remove folder in next commit
+
+coba edit
