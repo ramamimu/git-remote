@@ -1,0 +1,4 @@
+[submodule "git-remote-from-zero"]
+	path = git-remote-from-zero
+	url = https://github.com/ramamimu/git-remote-from-zero.git
+	ignore = all
